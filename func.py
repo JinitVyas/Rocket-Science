@@ -20,14 +20,6 @@ class AllFunctions:
                                 f'PWD={password}')
             cursor = conn.cursor()
             return cursor,conn
-            # # server = 'govt-chat-history.database.windows.net'
-            # # database = 'grieviance'
-            # # password = 'test'
-            # # username = '6unamat@'
-            # # connection_string = f"Driver={{ODBC Driver 17 for SQL Server}};Server=tcp:{server},1433;Database={database};Uid={username};Pwd={password};Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
-            # connection_string="Driver={ODBC Driver 17 for SQL Server};Server=tcp:govt-chat-history.database.windows.net,1433;Database=grieviance;Uid=test;Pwd=6unamat@;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
-            # # connection_string="Driver={ODBC Driver 17 for SQL Server};Server=tcp:whatsappbot.database.windows.net,1433;Database=ClothingStore;Uid=BHAVY;Pwd=ADMIN_admin;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
-
             # conn = pyodbc.connect(connection_string)
             # cursor = conn.cursor()
             # return cursor, conn
