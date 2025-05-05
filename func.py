@@ -10,7 +10,7 @@ class AllFunctions:
             server = os.getenv("ROCKET_SQL_SERVER")  # replace with your server
             database = os.getenv("ROCKET_SQL_DATABASE")  # replace with your database
             username = os.getenv("ROCKET_SQL_USERNAME")  # replace with your username
-            password = "R!thod123"  # replace with your password
+            password = os.getenv("ROCKET_SQL_PASSWORD")  # replace with your password
             driver = "{ODBC Driver 18 for SQL Server}"  # ODBC driver for SQL Server
             # Establish connection
             conn = pyodbc.connect(f'DRIVER={driver};'
